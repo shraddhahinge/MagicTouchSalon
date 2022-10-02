@@ -1,6 +1,6 @@
 import { jsx, Image } from "theme-ui";
 import { Link } from "components/link";
-import LogoDark from "images/logo.jpg";
+import LogoDark from "images/logo1.jpg";
 
 export default function Logo({ className }) {
   return (

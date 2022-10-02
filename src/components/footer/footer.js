@@ -1,7 +1,7 @@
 //
 import React, { useState } from "react";
 import { Button, Input, Box, Container, Heading, Text, Image } from "theme-ui";
-import logoImage from "images/logo.jpg";
+import logoImage from "images/logo1.jpg";
 import whatsapp from "assets/whatsapp.png";
 import facebook from "assets/facebook.png";
 import instagram from "assets/instagram.png";
