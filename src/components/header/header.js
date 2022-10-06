@@ -55,8 +55,12 @@ const styles = {
     fontSize: "16px",
     fontWeight: 700,
     // border: "2px solid red",
+    color: "#edab12",
     backgroundColor: "#FCF2E8",
     display: ["none", null, null, null, "inline-block"],
+    "&:hover": {
+      backgroundColor: "#edab12",
+    },
   },
   header: {
     color: "text_white",
@@ -106,7 +110,7 @@ const styles = {
         textDecoration: "none",
         color: "white",
         "&:hover, &.active": {
-          color: "primary",
+          color: "#edab12",
         },
       },
       ":last-child": {

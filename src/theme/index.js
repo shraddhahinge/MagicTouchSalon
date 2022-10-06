@@ -1,88 +1,90 @@
 export default {
   // example colors with dark mode
-  breakpoints: ['376px', '576px', '768px', '992px', '1200px', '1441px'],
+  breakpoints: ["376px", "576px", "768px", "992px", "1200px", "1441px"],
   colors: {
-    text: '#343D48', // body color and primary color
-    text_secondary: '#02073E', // secondary body color
-    heading: '#0F2137', // primary heading color
-    heading_secondary: '#343D48', // heading color
-    background: '#FFFFFF', // body background color
-    background_secondary: '#F9FBFD', // secondary background color
-    border_color: '#E9EDF5', // border color
-    primary: '#EF9E48', // primary button and link color
-    primaryLight: '#FCF2E8',
-    black: '#0F2137',
-    secondary: '#30c', // secondary color - can be used for hover states
-    muted: '#7B8188', // muted color
-    accent: '#609', // a contrast color for emphasizing UI
+    text: "#343D48", // body color and primary color
+    text_secondary: "#02073E", // secondary body color
+    heading: "#0F2137", // primary heading color
+    heading_secondary: "#343D48", // heading color
+    background: "#FFFFFF", // body background color
+    background_secondary: "#F9FBFD", // secondary background color
+    border_color: "#E9EDF5", // border color
+    primary: "#EF9E48", // primary button and link color
+    primaryLight: "#FCF2E8",
+    black: "#0F2137",
+    secondary: "#30c", // secondary color - can be used for hover states
+    muted: "#7B8188", // muted color
+    accent: "#609", // a contrast color for emphasizing UI
 
     // highlight	a background color for highlighting text
     modes: {
       dark: {
-        text: '#fff',
-        background: '#000',
-        primary: '#0cf',
-        secondary: '#09c',
-        muted: '#111',
+        text: "#fff",
+        background: "#000",
+        primary: "#0cf",
+        secondary: "#09c",
+        muted: "#111",
       },
     },
   },
   fonts: {
-    body: 'DM Sans',
+    body: "DM Sans",
     // body:
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'DM Sans',
+    heading: "DM Sans",
     // heading: 'Bree Serif',
-    monospace: 'Menlo, monospace',
+    monospace: "Menlo, monospace",
   },
   fontSizes: [12, 14, 16, 20, 24, 28, 32, 36, 48, 64, 72],
   fontWeights: {
-    body: 'normal',
+    body: "normal",
     // body: 400,
     heading: 500,
     // heading: 700,
     bold: 700,
   },
   lineHeights: {
-    body: '30px',
+    body: "30px",
     // body: 1.5,
-    heading: '50px',
+    heading: "50px",
     // heading: 1.125,
   },
   letterSpacings: {
-    body: 'normal',
-    caps: '0.2em',
-    heading: '-0.5px',
+    body: "normal",
+    caps: "0.2em",
+    heading: "-0.5px",
   },
   // space: [0, 4, 8, 16, 32, 64],
   sizes: {
-    container: ['1210px'],
+    container: ["1210px"],
   },
   // variants can use custom, user-defined names
   layout: {
     container: {
-      px: ['20px', null, null, null, '30px', '20px'],
+      px: ["20px", null, null, null, "30px", "20px"],
     },
     header: {
-      color: '#02073E',
-      fontWeight: 'normal',
+      color: "#02073E",
+      fontWeight: "normal",
       py: 3,
     },
     toolbar: {
-      display: 'flex',
-      alignItems: 'center',
+      display: "flex",
+      alignItems: "center",
       // justifyContent: 'space-between',
     },
-    main: {},
+    main: {
+      backgroundColor: "white",
+    },
     footer: {
-      backgroundColor: 'background_secondary',
+      backgroundColor: "background_secondary",
     },
   },
   section: {
     banner: {
       borderTop: (t) => `1px solid ${t.colors.border_color}`,
       borderBottom: (t) => `1px solid ${t.colors.border_color}`,
-      backgroundColor: 'background_secondary',
+      backgroundColor: "background_secondary",
       py: [3, 5],
     },
     feature: {
@@ -94,7 +96,7 @@ export default {
     product: {
       borderTop: (t) => `1px solid ${t.colors.border_color}`,
       borderBottom: (t) => `1px solid ${t.colors.border_color}`,
-      backgroundColor: 'background_color',
+      backgroundColor: "background_color",
       py: 5,
     },
     offer: {
@@ -115,60 +117,60 @@ export default {
   },
   text: {
     heading: {
-      fontFamily: 'heading',
-      lineHeight: 'heading',
-      fontWeight: 'heading',
+      fontFamily: "heading",
+      lineHeight: "heading",
+      fontWeight: "heading",
       fontSize: 4,
-      letterSpacing: 'heading',
-      color: 'heading',
+      letterSpacing: "heading",
+      color: "heading",
     },
     heroPrimary: {
       fontSize: [5, 55],
-      fontWeight: 'normal',
-      lineHeight: ['40px', '80px'],
-      letterSpacing: '-1px',
-      textAlign: ['center', 'left'],
+      fontWeight: "normal",
+      lineHeight: ["40px", "80px"],
+      letterSpacing: "-1px",
+      textAlign: ["center", "left"],
     },
     title: {
       // extends the text.heading styles
-      variant: 'text.heading',
+      variant: "text.heading",
       // fontSize: [6, 7, 8],
       // fontWeight: 'display',
-      fontWeight: 'bold',
+      fontWeight: "bold",
       fontSize: 18,
-      lineHeight: '30px',
-      color: '#0F2137',
+      lineHeight: "30px",
+      color: "#0F2137",
     },
     heroSecondary: {
-      color: 'text_secondary',
-      lineHeight: ['30px', '42px'],
-      letterSpacing: '0.1em',
-      textAlign: ['center', 'left'],
+      color: "text_secondary",
+      lineHeight: ["30px", "42px"],
+      letterSpacing: "0.1em",
+      textAlign: ["center", "left"],
     },
     lead: {
       fontSize: 40,
-      fontFamily: 'DM Sans',
-      fontWeight: '500',
-      lineHeight: '60px',
-      letterSpacing: '-1.5px',
-      color: '#0F2137',
+      fontFamily: "DM Sans",
+      fontWeight: "500",
+      lineHeight: "60px",
+      letterSpacing: "-1.5px",
+      color: "#0F2137",
     },
     muted: {
-      lineHeight: '26px',
-      color: 'muted',
+      lineHeight: "26px",
+      color: "muted",
     },
     secondary: {
       fontWeight: 500,
-      color: '#00A99D',
-      lineHeight: '40px',
+      color: "#00A99D",
+      lineHeight: "40px",
     },
   },
   links: {
     bold: {
-      fontWeight: 'bold',
+      fontWeight: "bold",
     },
     nav: {
-      display: ['none', null, 'inline-block'],
+      display: ["none", null, "inline-block"],
       p: 2,
       // transitionProperty: 'background-color',
       // transitionTimingFunction: 'ease-out',
@@ -183,10 +185,10 @@ export default {
       // },
     },
     footer: {
-      display: 'block',
+      display: "block",
       px: 0,
-      color: 'inherit',
-      textDecoration: 'none',
+      color: "inherit",
+      textDecoration: "none",
     },
   },
   images: {
@@ -199,56 +201,56 @@ export default {
   // variants for buttons
   buttons: {
     menu: {
-      display: [null, null, 'none'],
+      display: [null, null, "none"],
     }, // default variant for MenuButton
     // you can reference other values defined in the theme
     primary: {
-      outline: 'none',
-      display: 'inline-block',
-      fontWeight: 'bold',
-      color: 'primary',
-      bg: 'primaryLight',
-      cursor: 'pointer',
-      transition: '500ms',
-      fontSize: ['14px', null, null, '16px'],
-      letterSpacing: '-0.16px',
-      padding: '10px 19px',
-      borderRadius: '5px',
-      textDecoration: 'none',
-      '&:hover': {
-        bg: 'primary',
-        color: '#fff',
+      outline: "none",
+      display: "inline-block",
+      fontWeight: "bold",
+      color: "primary",
+      bg: "primaryLight",
+      cursor: "pointer",
+      transition: "500ms",
+      fontSize: ["14px", null, null, "16px"],
+      letterSpacing: "-0.16px",
+      padding: "10px 19px",
+      borderRadius: "5px",
+      textDecoration: "none",
+      "&:hover": {
+        bg: "primary",
+        color: "#fff",
       },
     },
     secondary: {
-      color: 'text',
-      bg: 'secondary',
+      color: "text",
+      bg: "secondary",
     },
     text: {
-      backgroundColor: 'transparent',
-      color: '#3183FF',
+      backgroundColor: "transparent",
+      color: "#3183FF",
       pl: 0,
     },
   },
   blockTitle: {
     p: {
       margin: 0,
-      fontSize: '14px',
-      fontWeight: 'Bold',
-      textTransform: 'uppercase',
-      color: 'primary',
+      fontSize: "14px",
+      fontWeight: "Bold",
+      textTransform: "uppercase",
+      color: "primary",
       lineHeight: 1,
-      letterSpacing: '2.1px',
-      marginBottom: '12px',
+      letterSpacing: "2.1px",
+      marginBottom: "12px",
     },
     h3: {
       margin: 0,
-      fontSize: ['24px', null, null, , '30px', null, null, '36px'],
-      color: 'black',
-      fontWeight: 'bold',
+      fontSize: ["24px", null, null, , "30px", null, null, "36px"],
+      color: "black",
+      fontWeight: "bold",
       lineHeight: 1.53,
-      whiteSpace: 'pre-line',
-      letterSpacing: ['-0.5px', null, null, '-1.5px'],
+      whiteSpace: "pre-line",
+      letterSpacing: ["-0.5px", null, null, "-1.5px"],
     },
   },
   cards: {
@@ -258,101 +260,101 @@ export default {
       // boxShadow: '0 0 4px 1px rgba(0, 0, 0, 0.5)',
     },
     offer: {
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      flex: ['1 1 calc(50% - 16px)', '1 1 20%'],
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      flex: ["1 1 calc(50% - 16px)", "1 1 20%"],
       minHeight: 130,
       m: 2,
-      background: '#FFFFFF',
-      border: '1px solid #EDEFF6',
+      background: "#FFFFFF",
+      border: "1px solid #EDEFF6",
       borderRadius: 5,
     },
     featureCard: {
-      display: 'flex',
-      alignItems: ['center', 'flex-start'],
-      flexDirection: ['column', 'row'],
+      display: "flex",
+      alignItems: ["center", "flex-start"],
+      flexDirection: ["column", "row"],
       p: [0, 3],
     },
   },
   forms: {
     label: {
       fontSize: 1,
-      fontWeight: 'bold',
+      fontWeight: "bold",
     },
     input: {
       borderRadius: 8,
-      borderColor: 'border_color',
+      borderColor: "border_color",
       height: 60,
-      '&:focus': {
-        borderColor: 'primary',
+      "&:focus": {
+        borderColor: "primary",
         boxShadow: (t) => `0 0 0 2px ${t.colors.primary}`,
-        outline: 'none',
+        outline: "none",
       },
     },
   },
 
   badges: {
     primary: {
-      color: 'background',
-      bg: '#28A5FF',
+      color: "background",
+      bg: "#28A5FF",
       borderRadius: 30,
-      p: '3px 11px',
+      p: "3px 11px",
       fontSize: 1,
-      letterSpacing: '-0.5px',
+      letterSpacing: "-0.5px",
     },
     outline: {
-      color: 'primary',
-      bg: 'transparent',
-      boxShadow: 'inset 0 0 0 1px',
+      color: "primary",
+      bg: "transparent",
+      boxShadow: "inset 0 0 0 1px",
     },
   },
 
   styles: {
     // To add base, top-level styles to the <body> element, use theme.styles.root.
     root: {
-      fontFamily: 'body',
-      lineHeight: 'body',
-      fontWeight: 'body',
-      WebkitFontSmoothing: 'antialiased',
-      '@media(max-width: 479px)': {
-        WebkitTextSizeAdjust: '100%',
+      fontFamily: "body",
+      lineHeight: "body",
+      fontWeight: "body",
+      WebkitFontSmoothing: "antialiased",
+      "@media(max-width: 479px)": {
+        WebkitTextSizeAdjust: "100%",
       },
       button: {
-        cursor: 'pointer',
-        outline: 'none',
+        cursor: "pointer",
+        outline: "none",
       },
     },
     // Divider styles
     hr: {
       border: 0,
-      borderBottom: '1px solid',
-      borderColor: '#D9E0E7',
+      borderBottom: "1px solid",
+      borderColor: "#D9E0E7",
     },
     // also you can use other HTML elements style here
     ul: {
-      listStyle: 'none',
+      listStyle: "none",
     },
     a: {
-      color: 'inherit',
-      textDecoration: 'none',
-      cursor: 'pointer',
+      color: "inherit",
+      textDecoration: "none",
+      cursor: "pointer",
     },
     button: {
-      cursor: 'pointer',
+      cursor: "pointer",
     },
     srOnly: {
-      border: '0 !important',
-      clip: 'rect(1px, 1px, 1px, 1px) !important',
-      clipPath: 'inset(50%) !important',
-      height: '1px !important',
-      margin: '-1px !important',
-      overflow: 'hidden !important',
-      padding: '0 !important',
-      position: 'absolute !important',
-      width: '1px !important',
-      whiteSpace: 'nowrap !important',
+      border: "0 !important",
+      clip: "rect(1px, 1px, 1px, 1px) !important",
+      clipPath: "inset(50%) !important",
+      height: "1px !important",
+      margin: "-1px !important",
+      overflow: "hidden !important",
+      padding: "0 !important",
+      position: "absolute !important",
+      width: "1px !important",
+      whiteSpace: "nowrap !important",
     },
   },
 };

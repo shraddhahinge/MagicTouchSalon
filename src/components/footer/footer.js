@@ -15,24 +15,24 @@ const SOCIAL_LOGO = [
     link: "https://wa.me/message/65QA2BVUCYMAF1",
     image: whatsapp,
   },
-  {
-    id: 2,
-    link: "https://www.facebook.com/askpanache/",
-    image: facebook,
-  },
-  {
-    id: 3,
-    link: "https://www.instagram.com/panache_learning/",
-    image: instagram,
-  },
-  {
-    id: 4,
-    link: "https://www.linkedin.com/company/panache-learning/",
-    image: linkedin,
-  },
+  // {
+  //   id: 2,
+  //   link: "https://www.facebook.com/askpanache/",
+  //   image: facebook,
+  // },
+  // {
+  //   id: 3,
+  //   link: "https://www.instagram.com/panache_learning/",
+  //   image: instagram,
+  // },
+  // {
+  //   id: 4,
+  //   link: "https://www.linkedin.com/company/panache-learning/",
+  //   image: linkedin,
+  // },
   {
     id: 5,
-    link: `mailto:panache1983@gmail.com?subject = How do I enroll in course?`,
+    link: `mailto:anuradhabangal@gmail.com?subject = How can I book an appointment?`,
     image: email,
   },
 ];
@@ -134,7 +134,7 @@ const styles = {
   container: {
     display: "flex",
     alignItems: "flex-start",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
     flexDirection: ["column-reverse", null, "column-reverse", null, "row"],
     // padding: 100,
     // border: "1px solid white",
@@ -148,10 +148,13 @@ const styles = {
   logoContainer: {
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
     flex: [null, null, null, 1],
     px: [null, null, null, 20],
     cursor: "pointer",
+    a: {
+      px: 10,
+    },
     "&:hover": {},
   },
   socialContainer: {

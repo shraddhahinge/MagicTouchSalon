@@ -62,7 +62,7 @@ function ServiceBanner() {
                 {tabItems?.map(({ name, price, id }) => (
                   <Box sx={styles.priceContainer} key={id}>
                     <Text as="p">{name}</Text>
-                    <Text as="p">{price}/-</Text>
+                    <Text as="p">{price}+</Text>
                   </Box>
                 ))}
                 {/* </Box> */}
@@ -95,8 +95,8 @@ const styles = {
     // border: "1px solid red",
     overflowX: "hidden",
     paddingTop: "100px",
-    // height: "100vh",
-    // background: "rgb(0,119,182)",
+    height: "100vh",
+    background: "white",
     // background:
     //   "linear-gradient(0deg, rgba(0,119,182,1) 0%, rgba(69,22,118,1) 71%)",
     // backgroundPosition: "left top",
@@ -110,6 +110,10 @@ const styles = {
     textAlign: "center",
     backgroundColor: "#FCF2E8",
     display: "inline-block",
+    color: "#edab12",
+    "&:hover": {
+      backgroundColor: "#edab12",
+    },
   },
   container: {
     // border: "1px solid black",

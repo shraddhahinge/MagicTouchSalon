@@ -85,6 +85,9 @@ const styles = {
     blockTitle: {
       textAlign: "center",
       marginBottom: "30px",
+      p: {
+        color: "#edab12",
+      },
     },
     row: {
       display: "grid",

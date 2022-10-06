@@ -106,6 +106,9 @@ const styles = {
     blockTitle: {
       marginBottom: [30, null, 55],
       textAlign: "center",
+      p: {
+        color: "#edab12",
+      },
     },
     // grid: {
     //   pt: 20,
@@ -187,7 +190,7 @@ const styles = {
       borderRadius: 10,
       boxShadow: "0px 5px 10px rgb(69 88 157 / 20%)",
       transition: "all 0.4s ease",
-      cursor: "pointer",
+      // cursor: "pointer",
       textDecoration: "none",
       "&:hover": {
         boxShadow: " 10px 10px 24px rgba(69, 88, 157, 0.10)",
@@ -197,6 +200,7 @@ const styles = {
         // marginTop: "auto",
         fontWeight: "200",
         textAlign: "center",
+        color: "black",
       },
     },
     // image: {
@@ -226,7 +230,8 @@ const styles = {
         fontSize: "16px",
         lineHeight: 1,
         pl: 1,
-        // color: "#00b4d8",
+
+        color: "#343D48",
       },
       img: {
         width: 15,

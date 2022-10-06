@@ -83,7 +83,7 @@ const CtaTwo = () => {
                   Association of Beauty Therapy and Cosmetology (ABTC)
                 </span>
                 . Also, she is certified in{" "}
-                <span>Makeup, Hair-Chemical & Nail Studio.</span>
+                <span>Makeup, Hair-Chemical, Skin Asthetic & Nail Studio.</span>
                 It is been 9 years since her Beauty Salon is been running
                 successfully with <span>5000+ clients trusted</span>. Soon she
                 is going to start Academy in her studio.
@@ -121,6 +121,7 @@ const styles = {
     },
     row: {
       flexWrap: "wrap",
+      flexDirection: ["column-reverse", null, null, null, "row"],
     },
     col: {
       flex: "0 0 50%",
@@ -156,7 +157,9 @@ const styles = {
     },
     blockTitle: {
       marginBottom: [20, null, null, 30],
-
+      p: {
+        color: "#edab12",
+      },
       h3: {
         fontSize: ["24px", null, null, "36px", null, "48px"],
         lineHeight: 1.15,

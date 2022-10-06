@@ -38,19 +38,34 @@ export const SERVICE_MENU_DETAILS = [
         image: CutImage,
         items: [
           {
-            name: "Hair Cut",
-            price: 250,
+            name: "Basic Hair Cut",
+            price: 200,
             id: 11,
           },
           {
-            name: "Hair Cut",
-            price: 250,
+            name: "Advance Hair Cut",
+            price: 400,
             id: 12,
           },
           {
-            name: "Hair Cut",
-            price: 250,
+            name: "Layer Cut",
+            price: 350,
             id: 13,
+          },
+          {
+            name: "Feather Cut",
+            price: 400,
+            id: 14,
+          },
+          {
+            name: "Step Cut",
+            price: 400,
+            id: 15,
+          },
+          {
+            name: "Baby Cut",
+            price: 250,
+            id: 16,
           },
         ],
       },
@@ -76,7 +91,12 @@ export const SERVICE_MENU_DETAILS = [
           },
           {
             name: "Hair Wash + Conditioner",
-            price: 200,
+            price: 300,
+            id: 24,
+          },
+          {
+            name: "Hair Style",
+            price: 500,
             id: 24,
           },
         ],
@@ -92,9 +112,24 @@ export const SERVICE_MENU_DETAILS = [
             id: 31,
           },
           {
-            name: "Global per strip",
-            price: 250,
+            name: "Global Hair Color",
+            price: 1800,
             id: 32,
+          },
+          {
+            name: "Hair Color Touchup",
+            price: 1000,
+            id: 33,
+          },
+          {
+            name: "Fashion Color",
+            price: 2000,
+            id: 34,
+          },
+          {
+            name: "Ombre Hair Color",
+            price: 3000,
+            id: 35,
           },
         ],
       },
@@ -105,32 +140,32 @@ export const SERVICE_MENU_DETAILS = [
         items: [
           {
             name: "Hair Keratin",
-            price: 250,
+            price: 5000,
             id: 41,
           },
           {
             name: "Hair Smootening",
-            price: 250,
+            price: 4000,
             id: 42,
           },
           {
             name: "Hair Protein",
-            price: 250,
+            price: 5000,
             id: 43,
           },
           {
             name: "Hair Botox",
-            price: 250,
+            price: 4000,
             id: 44,
           },
           {
             name: "Hair Aqua Gold",
-            price: 250,
+            price: 5000,
             id: 45,
           },
           {
             name: "Hair Anti-Dandruff Treatment(Per Sitting)",
-            price: 500,
+            price: 1500,
             id: 46,
           },
           {
@@ -170,18 +205,18 @@ export const SERVICE_MENU_DETAILS = [
             id: 13,
           },
           {
-            name: "VLCC Whitening Facial",
-            price: 850,
+            name: "LOTUS PROFESSIONAL Whitening Facial",
+            price: 1500,
             id: 14,
           },
           {
-            name: "VLCC Instant Glow Facial",
-            price: 850,
+            name: "LOTUS PROFESSIONAL Instant Glow Facial",
+            price: 1200,
             id: 15,
           },
           {
-            name: "VLCC Nourishment Facial",
-            price: 850,
+            name: "LOTUS PROFESSIONAL Nourishment Facial",
+            price: 1200,
             id: 16,
           },
           {
@@ -200,8 +235,8 @@ export const SERVICE_MENU_DETAILS = [
             id: 19,
           },
           {
-            name: "Sensitive Skin",
-            price: 1000,
+            name: "Sensi Glow Skin",
+            price: 1200,
             id: 111,
           },
           {
@@ -215,43 +250,43 @@ export const SERVICE_MENU_DETAILS = [
             id: 113,
           },
           {
-            name: "VLCC Pearl Facial",
-            price: 1000,
+            name: "LOTUS PROFESSIONAL Pearl Facial",
+            price: 1200,
             id: 114,
           },
           {
-            name: "Richfeel Pearl Facial",
-            price: 1000,
+            name: "Glow Vita Facial",
+            price: 1200,
             id: 115,
           },
           {
-            name: "Shahnaz Gold Facial",
-            price: 1000,
+            name: "LOTUS Gold Facial",
+            price: 1500,
             id: 116,
           },
           {
-            name: "Richfeel Diamond Facial",
-            price: 1000,
+            name: "Whitening Facial",
+            price: 1200,
             id: 117,
           },
           {
-            name: "Chery's Oxy Blast",
-            price: 1000,
+            name: "Cheryl's Oxy Blast",
+            price: 1500,
             id: 118,
           },
           {
-            name: "Chery's Glovite Facial",
-            price: 1000,
+            name: "Cheryl's Anti-aging Facial",
+            price: 1200,
             id: 119,
           },
           {
-            name: "Chery's Tan Clear Facial",
-            price: 1000,
+            name: "Cheryl's Tan Clear Facial",
+            price: 1200,
             id: 121,
           },
           {
             name: "O3+ All Skin Type Facial",
-            price: 2500,
+            price: 3000,
             id: 122,
           },
         ],
@@ -263,7 +298,7 @@ export const SERVICE_MENU_DETAILS = [
         items: [
           {
             name: "Herbal Cleanup",
-            price: 300,
+            price: 350,
             id: 21,
           },
           {
@@ -273,57 +308,57 @@ export const SERVICE_MENU_DETAILS = [
           },
           {
             name: "Anti tan Cleanup",
-            price: 350,
+            price: 400,
             id: 23,
           },
           {
             name: "Chocolate Cleanup",
-            price: 350,
+            price: 400,
             id: 24,
           },
           {
             name: "Wine Cleanup",
-            price: 400,
+            price: 500,
             id: 25,
           },
           {
             name: "Anti-Aging Cleanup",
-            price: 350,
+            price: 400,
             id: 26,
           },
           {
             name: "Sensitive Skin",
-            price: 350,
+            price: 500,
             id: 27,
           },
           {
             name: "Acne Cleanup",
-            price: 350,
+            price: 500,
             id: 28,
           },
           {
             name: "Saffron Cleanup",
-            price: 350,
+            price: 400,
             id: 29,
           },
           {
             name: "Cucumber Cleanup",
-            price: 350,
+            price: 400,
             id: 211,
           },
           {
             name: "Banana Cleanup",
-            price: 350,
+            price: 400,
             id: 212,
           },
           {
             name: "Almond Kesar Cleanup",
-            price: 350,
+            price: 400,
             id: 213,
           },
           {
             name: "Lotus All Skin Type",
-            price: 400,
+            price: 600,
             id: 214,
           },
           {
@@ -332,18 +367,18 @@ export const SERVICE_MENU_DETAILS = [
             id: 215,
           },
           {
-            name: "VLCC Whitening Cleanup",
-            price: 400,
+            name: "LOTUS PROFESSIONAL Whitening Cleanup",
+            price: 800,
             id: 216,
           },
           {
-            name: "VLCC Instant Glow Cleanup",
-            price: 400,
+            name: "LOTUS PROFESSIONAL Instant Glow Cleanup",
+            price: 800,
             id: 217,
           },
           {
-            name: "VLCC Pearl Cleanup",
-            price: 500,
+            name: "LOTUS PROFESSIONAL Pearl Cleanup",
+            price: 800,
             id: 218,
           },
           {
@@ -352,13 +387,13 @@ export const SERVICE_MENU_DETAILS = [
             id: 219,
           },
           {
-            name: "Shahnaz Diamond Cleanup",
-            price: 500,
+            name: "Cheryl's Cleanup",
+            price: 600,
             id: 221,
           },
           {
             name: "O3+ All Skin Type Cleanup",
-            price: 1000,
+            price: 1500,
             id: 222,
           },
         ],
@@ -432,22 +467,22 @@ export const SERVICE_MENU_DETAILS = [
 
           {
             name: "Oxy Bleach (Hand) FULL",
-            price: 400,
+            price: 600,
             id: 314,
           },
           {
             name: "Cherils Bleach (Hand) FULL",
-            price: 500,
+            price: 800,
             id: 315,
           },
           {
             name: "Gold Bleach (Hand) FULL",
-            price: 400,
+            price: 600,
             id: 316,
           },
           {
             name: "Bleach Full Body",
-            price: 1000,
+            price: 2000,
             id: 317,
           },
         ],
@@ -456,6 +491,13 @@ export const SERVICE_MENU_DETAILS = [
         id: 4,
         title: "D Tan",
         image: DTanImage,
+        items: [
+          {
+            name: "Face D-Tan",
+            price: 250,
+            id: 202,
+          },
+        ],
       },
       {
         id: 5,
@@ -496,12 +538,12 @@ export const SERVICE_MENU_DETAILS = [
         items: [
           {
             name: "Whitening",
-            price: 200,
+            price: 2500,
             id: 61,
           },
           {
-            name: "Instant glow",
-            price: 200,
+            name: "Hydra Facial + Whitening Peel",
+            price: 3500,
             id: 62,
           },
         ],
@@ -533,17 +575,17 @@ export const SERVICE_MENU_DETAILS = [
           },
           {
             name: "Spa Berry's",
-            price: 450,
+            price: 500,
             id: 12,
           },
           {
             name: "Spa Manicure with Wrap",
-            price: 500,
+            price: 700,
             id: 13,
           },
           {
-            name: "VLCC Manicure",
-            price: 500,
+            name: "RAAGA PROFESSIONAL Manicure",
+            price: 700,
             id: 14,
           },
         ],
@@ -569,8 +611,8 @@ export const SERVICE_MENU_DETAILS = [
             id: 23,
           },
           {
-            name: "VLCC Manicure",
-            price: 500,
+            name: "RAAGA PROFESSIONAL Manicure",
+            price: 700,
             id: 24,
           },
         ],
@@ -583,12 +625,12 @@ export const SERVICE_MENU_DETAILS = [
         items: [
           {
             name: "Full Arm (Normal)",
-            price: 200,
+            price: 250,
             id: 31,
           },
           {
-            name: "Full Arm (Antitan)",
-            price: 350,
+            name: "Full Arm (Rica)",
+            price: 400,
             id: 32,
           },
           {
@@ -597,28 +639,28 @@ export const SERVICE_MENU_DETAILS = [
             id: 33,
           },
           {
-            name: "Under Arms (Antitan)",
+            name: "Under Arms (Rica)",
             price: 80,
             id: 34,
           },
           {
             name: "Half Leg (Normal)",
-            price: 150,
+            price: 200,
             id: 35,
           },
           {
-            name: "Half Leg (Antitan)",
-            price: 250,
+            name: "Half Leg (Rica)",
+            price: 300,
             id: 36,
           },
           {
             name: "Full Leg (Normal)",
-            price: 300,
+            price: 400,
             id: 37,
           },
           {
-            name: "Full Leg (Antitan)",
-            price: 500,
+            name: "Full Leg (Rica)",
+            price: 600,
             id: 38,
           },
           {
@@ -632,18 +674,18 @@ export const SERVICE_MENU_DETAILS = [
             id: 311,
           },
           {
-            name: "Said Lock",
-            price: 80,
+            name: "Side Lock",
+            price: 100,
             id: 312,
           },
           {
             name: "Full body (Normal)",
-            price: 1000,
+            price: 1500,
             id: 313,
           },
           {
-            name: "Full body (Antitan)",
-            price: 1500,
+            name: "Full body (Rica)",
+            price: 2000,
             id: 314,
           },
         ],
@@ -707,7 +749,7 @@ export const SERVICE_MENU_DETAILS = [
   {
     id: 105,
     title: "Indulge your nails",
-    navigate: false,
+    navigate: true,
 
     image: ImageFive,
     logo: LogoFive,
@@ -716,14 +758,33 @@ export const SERVICE_MENU_DETAILS = [
       {
         id: 1,
         title: "Basic nail color",
-      },
-      {
-        id: 2,
-        title: "Printed nail color",
-      },
-      {
-        id: 3,
-        title: "Artificial nail art",
+        items: [
+          {
+            name: "Gel Polish",
+            price: 700,
+            id: 44,
+          },
+          {
+            name: "Nail Extension",
+            price: 1500,
+            id: 44,
+          },
+          {
+            name: "Gel Nail Extension",
+            price: 2000,
+            id: 44,
+          },
+          {
+            name: "Polly Gel Extension",
+            price: 2500,
+            id: 44,
+          },
+          {
+            name: "Acrylic Nail Extension",
+            price: 2500,
+            id: 44,
+          },
+        ],
       },
     ],
   },

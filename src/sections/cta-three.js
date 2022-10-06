@@ -25,6 +25,7 @@ const CtaThree = () => {
                 </Text>
                 <Link
                   path="#"
+                  sx={styles.headerBtn}
                   label="Book an appointment"
                   variant="buttons.primary"
                 />
@@ -114,6 +115,9 @@ const styles = {
         marginLeft: ["auto", null, null, null, "0"],
         marginRight: ["auto", null, null, null, "0"],
         whiteSpace: ["normal", null, null, null, "pre-line"],
+      },
+      p: {
+        color: "#edab12",
       },
     },
     content: {
@@ -212,6 +216,12 @@ const styles = {
     },
     color4: {
       color: "#E682FF",
+    },
+  },
+  headerBtn: {
+    color: "#edab12",
+    "&:hover": {
+      backgroundColor: "#edab12",
     },
   },
 };

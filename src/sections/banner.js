@@ -402,6 +402,10 @@ const styles = {
     width: "100%",
     textAlign: "center",
     backgroundColor: "#FCF2E8",
+    color: "#edab12",
+    "&:hover": {
+      backgroundColor: "#edab12",
+    },
     // display: ["none", null, null, null, "inline-block"],
   },
   bannerIcon1: {

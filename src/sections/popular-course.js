@@ -184,7 +184,7 @@ export default PopularCourse;
 
 const styles = {
   popularCourse: {
-    background: "linear-gradient(180deg, #fcbf49 0%, #eae2b7 100%)",
+    background: "linear-gradient(180deg, #eae2b7 0%, #fcbf49 100%)",
 
     py: ["100px"],
     "@media(max-width: 575px)": {
@@ -193,6 +193,9 @@ const styles = {
     blockTitle: {
       textAlign: "center",
       marginBottom: "60px",
+      p: {
+        color: "#edab12",
+      },
       "@media(max-width: 575px)": {
         marginBottom: "30px",
       },

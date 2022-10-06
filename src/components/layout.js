@@ -40,9 +40,11 @@ export default function Layout({ children }) {
       />
 
       <main
-        sx={{
-          variant: "layout.main",
-        }}
+        // sx={{
+        //   // variant: "layout.main",
+        //   backgroundColor: "white",
+        // }}
+        style={{ backgroundColor: "white" }}
       >
         {children}
       </main>

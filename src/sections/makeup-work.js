@@ -4,12 +4,12 @@ import { Link } from "components/link";
 import BlockTitle from "components/block-title";
 import ctaTwoImage from "assets/free-course.png";
 import { Carousel } from "react-responsive-carousel";
-import ImageOne from "images/user1.jpg";
-import ImageTwo from "images/user2.jpg";
-import ImageThree from "images/user3.jpg";
-import ImageFour from "images/user4.jpg";
-import ImageFive from "images/user5.jpg";
-import ImageSix from "images/user6.jpg";
+import ImageOne from "images/makeup-1.jpeg";
+import ImageTwo from "images/makeup-2.jpeg";
+import ImageThree from "images/makeup-3.jpeg";
+import ImageFour from "images/makeup-4.jpeg";
+import ImageFive from "images/makeup-5.jpeg";
+import ImageSix from "images/makeup-6.jpeg";
 const ImageData = [
   {
     image: ImageOne,
@@ -149,7 +149,7 @@ const styles = {
       },
     },
     content: {
-      paddingRight: "50px",
+      paddingRight: [null, null, null, null, "50px"],
       "@media(max-width:1024px)": {
         paddingLeft: 0,
         maxWidth: 475,
@@ -163,7 +163,9 @@ const styles = {
     },
     blockTitle: {
       marginBottom: [20, null, null, 30],
-
+      p: {
+        color: "#edab12",
+      },
       h3: {
         fontSize: ["24px", null, null, "36px", null, "48px"],
         lineHeight: 1.15,
