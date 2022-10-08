@@ -112,6 +112,8 @@ export default CtaTwo;
 
 const styles = {
   ctaTwo: {
+    background: "linear-gradient(180deg, #fff1e6 0%, #f0efeb 100%)",
+
     blockTitle: {
       textAlign: "center",
       marginBottom: "60px",

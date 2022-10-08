@@ -59,10 +59,13 @@ function ServiceBanner() {
             <Flex sx={styles.layout.contentRow}>
               <Box sx={styles.col}>
                 {/* <Box> */}
-                {tabItems?.map(({ name, price, id }) => (
+                {tabItems?.map(({ name, price, id, plus }) => (
                   <Box sx={styles.priceContainer} key={id}>
                     <Text as="p">{name}</Text>
-                    <Text as="p">{price}+</Text>
+                    <Text as="p">
+                      {price}
+                      {plus ? "+" : "/-"}
+                    </Text>
                   </Box>
                 ))}
                 {/* </Box> */}

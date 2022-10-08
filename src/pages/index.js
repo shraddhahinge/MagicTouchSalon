@@ -25,7 +25,7 @@ export default function IndexPage() {
           <Layout>
             <SEO
               description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
-              title="Startup Online Course Landing"
+              title="Magic Touch Beauty Salon"
             />
             <Banner />
             <FavoriteCourse />

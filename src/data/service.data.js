@@ -40,31 +40,43 @@ export const SERVICE_MENU_DETAILS = [
           {
             name: "Basic Hair Cut",
             price: 200,
+
+            plus: true,
             id: 11,
           },
           {
             name: "Advance Hair Cut",
             price: 400,
+
+            plus: true,
             id: 12,
           },
           {
             name: "Layer Cut",
             price: 350,
+
+            plus: true,
             id: 13,
           },
           {
             name: "Feather Cut",
             price: 400,
+
+            plus: true,
             id: 14,
           },
           {
             name: "Step Cut",
             price: 400,
+
+            plus: true,
             id: 15,
           },
           {
             name: "Baby Cut",
             price: 250,
+
+            plus: true,
             id: 16,
           },
         ],
@@ -77,26 +89,36 @@ export const SERVICE_MENU_DETAILS = [
           {
             name: "Hair Blow Dry",
             price: 250,
+
+            plus: true,
             id: 21,
           },
           {
             name: "Hair Ironing",
             price: 500,
+
+            plus: true,
             id: 22,
           },
           {
             name: "Hair Tongs",
             price: 600,
+
+            plus: true,
             id: 23,
           },
           {
             name: "Hair Wash + Conditioner",
             price: 300,
+
+            plus: true,
             id: 24,
           },
           {
             name: "Hair Style",
             price: 500,
+
+            plus: true,
             id: 24,
           },
         ],
@@ -109,26 +131,32 @@ export const SERVICE_MENU_DETAILS = [
           {
             name: "Highlights per strip",
             price: 250,
+
+            plus: true,
             id: 31,
           },
           {
             name: "Global Hair Color",
             price: 1800,
+            plus: true,
             id: 32,
           },
           {
             name: "Hair Color Touchup",
             price: 1000,
+            plus: true,
             id: 33,
           },
           {
             name: "Fashion Color",
             price: 2000,
+            plus: true,
             id: 34,
           },
           {
             name: "Ombre Hair Color",
             price: 3000,
+            plus: true,
             id: 35,
           },
         ],
@@ -141,36 +169,43 @@ export const SERVICE_MENU_DETAILS = [
           {
             name: "Hair Keratin",
             price: 5000,
+            plus: true,
             id: 41,
           },
           {
             name: "Hair Smootening",
             price: 4000,
+            plus: true,
             id: 42,
           },
           {
             name: "Hair Protein",
             price: 5000,
+            plus: true,
             id: 43,
           },
           {
             name: "Hair Botox",
             price: 4000,
+            plus: true,
             id: 44,
           },
           {
             name: "Hair Aqua Gold",
             price: 5000,
+            plus: true,
             id: 45,
           },
           {
             name: "Hair Anti-Dandruff Treatment(Per Sitting)",
             price: 1500,
+            plus: true,
             id: 46,
           },
           {
             name: "Hair Spa Loreal",
             price: 1000,
+            plus: true,
             id: 47,
           },
         ],
