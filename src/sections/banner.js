@@ -382,7 +382,7 @@ const styles = {
         position: "relative",
         zIndex: 9,
         maxWidth: "100%",
-        height: "90%",
+        // height: "90%",
         objectFit: "contain",
       },
 
