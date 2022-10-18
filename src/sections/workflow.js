@@ -33,7 +33,7 @@ const workflowData = [
   {
     title: "Give your eyes a lift with mascara",
     image: ImageFour,
-    list: ["Vita C-Cleanup", "Hand Full Wax", "Threading"],
+    list: ["Vita C-Cleanup", "Rica Full Hand Wax", "Threading"],
     price: 999,
   },
   // {
