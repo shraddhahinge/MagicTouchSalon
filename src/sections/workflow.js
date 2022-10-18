@@ -27,28 +27,28 @@ const workflowData = [
   {
     title: "Fancy Feet",
     image: ImageThree,
-    list: ["Vita", "C Facial", "Tan/Bleach", "Threading"],
+    list: ["Vita C-Facial", "Tan/Bleach", "Threading"],
     price: 999,
   },
   {
     title: "Give your eyes a lift with mascara",
     image: ImageFour,
-    list: ["Vita", "C Cleanup", "Hand Full Wax", "Threading"],
+    list: ["Vita C-Cleanup", "Hand Full Wax", "Threading"],
     price: 999,
   },
-  {
-    title: "Indulge your nails",
-    image: ImageFive,
-    list: ["Basic nail color", "Printed nail art", "Artifical nail art"],
-    price: 999,
-  },
-  {
-    title:
-      "Convert your web layout theming easily with sketch zeplin extension",
-    image: ImageSix,
-    list: ["Basic nail color", "Printed nail art", "Artifical nail art"],
-    price: 999,
-  },
+  // {
+  //   title: "Indulge your nails",
+  //   image: ImageFive,
+  //   list: ["Basic nail color", "Printed nail art", "Artifical nail art"],
+  //   price: 999,
+  // },
+  // {
+  //   title:
+  //     "Convert your web layout theming easily with sketch zeplin extension",
+  //   image: ImageSix,
+  //   list: ["Basic nail color", "Printed nail art", "Artifical nail art"],
+  //   price: 999,
+  // },
 ];
 
 const WorkFlow = () => {

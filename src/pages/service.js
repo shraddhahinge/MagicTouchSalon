@@ -9,7 +9,7 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 import Modal from "components/modal";
 import Banner from "sections/serviceBanner";
-import CtaOne from "sections/cta-one";
+import CtaOne from "sections/offers";
 import FAQ from "sections/faq";
 import CtaTwo from "sections/cta-two";
 import WorkFlow from "sections/workflow";

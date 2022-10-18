@@ -7,7 +7,7 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 import Modal from "components/modal";
 import Banner from "sections/banner";
-import CtaOne from "sections/cta-one";
+import Offers from "sections/offers";
 import FAQ from "sections/faq";
 import CtaTwo from "sections/cta-two";
 import WorkFlow from "sections/workflow";
@@ -28,6 +28,7 @@ export default function IndexPage() {
               title="Magic Touch Beauty Salon"
             />
             <Banner />
+            <Offers />
             <FavoriteCourse />
             <WorkFlow />
             <PopularCourse />

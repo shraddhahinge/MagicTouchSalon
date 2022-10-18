@@ -35,7 +35,6 @@ import icon2 from "images/banner-small-icon-2.png";
 import icon3 from "images/banner-small-icon-3.png";
 import icon4 from "images/banner-small-icon-4.png";
 import icon5 from "images/banner-small-icon-5.png";
-import { Carousel } from "react-responsive-carousel";
 import { Link } from "components/link";
 
 const SMALL_LOGO = [
@@ -110,14 +109,14 @@ const Banner = () => {
         <Flex sx={styles.banner.row}>
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.content}>
-              {/* <Box sx={styles.banner.stars}>
+              <Box sx={styles.banner.stars}>
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
-                Trused by over 4,332 clients
-              </Box> */}
+                Trused by over 5,332 clients
+              </Box>
               <Heading as="h3">
                 Get Glowing The World Needs Your <span>MAGIC</span>
               </Heading>
@@ -259,7 +258,7 @@ const styles = {
       paddingRight: [0, 0, 0, 0, "40px", 0, 0],
       display: "flex",
       flexDirection: "column",
-      alignItems: "center",
+      // alignItems: "center",
       justifyContent: "space-between",
       // height: "100vh",
       h3: {
@@ -271,7 +270,7 @@ const styles = {
         fontSize: ["28px", "35px", null, "45px", null, "50px", "85px"],
         maxWidth: ["500px", null, null, null, null, null, "100%"],
         span: {
-          color: "primary",
+          color: "#edab12",
         },
         "&:before": {
           content: '""',
@@ -307,7 +306,7 @@ const styles = {
       alignItems: "center",
       lineHeight: 1,
       svg: {
-        color: "primary",
+        color: "#edab12",
         "+svg": {
           marginLeft: ["3px", null, "5px"],
         },
@@ -384,6 +383,7 @@ const styles = {
         zIndex: 9,
         maxWidth: "100%",
         height: "90%",
+        objectFit: "contain",
       },
 
       ".videoBtn": {
